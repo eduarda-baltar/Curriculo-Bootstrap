@@ -1,0 +1,167 @@
+:root{
+    --cor1: #F7374F;
+    --cor2: #88304e;
+    --cor3: #522546;
+    --cor4: #420231;
+    --corbranca: #ffffff;
+    --corpreta: #000000;
+    --corcinza: #6c757d;
+}
+
+
+
+body {
+    background: var(--corBranca);
+    background: linear-gradient(182deg, rgba(255, 255, 255, 1) 0%, rgb(245, 220, 226) 85%, rgb(221, 83, 125) 100%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--corPreta);
+}
+
+img.foto {
+    width: 15em;
+    border-radius: 10%;
+    margin-top: 5em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--cor3);
+}
+
+dd {
+    margin-left: 1.5em;
+}
+
+.texto-justificado {
+    text-align: justify;
+}
+
+.topBcgSobre {
+    background-color: var(--cor2);
+    width: 5.3em;
+}
+
+.topBcgFormacao {
+    background-color: var(--cor2);
+    width: 9em;
+}
+
+.topBcgExperiencia{
+    background-color: var(--cor2);
+    width: 22em;
+}
+
+.topBcgHabilidades{
+    background-color: var(--cor2);
+    width: 11em;
+}
+
+.topBcgEndereco{
+    background-color: var(--cor2);
+    width: 9em;
+}
+
+.hrCurriculo {
+    background-color: var(--cor3);
+}
+
+
+
+a.menuMEduarda {
+    color: var(--cor1);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0em;
+    border-radius: 0.5em;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: var(--cor3);
+}
+
+a.menuMEduarda:hover {
+    background-color: var(--cor4);
+    color: var(--corBranca);
+}
+
+th.curriculo {
+    background-color: var(--cor2);
+    color: var(--corBranca);
+    padding: 0.5em;
+    text-align: center;
+}
+
+th.largo20{
+    width: 20%;
+}
+
+th.largo10{
+    width: 10%;
+}
+
+#menuMEduarda {
+    background-color: var(--cor3);
+    padding: 1em;
+    text-align: center;
+}
+
+#sobre{
+    scroll-margin-top: 80px;
+}
+
+#formacao{
+    scroll-margin-top: 80px;
+}
+
+#experiencia{
+    scroll-margin-top: 80px;
+}
+
+#habilidades{
+    scroll-margin-top: 80px;
+}
+
+#endereco{
+    scroll-margin-top: 80px;
+}
+
+#contato{
+    scroll-margin-top: 80px;
+}
+
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--corBranca);
+    color: var(--cor4);
+    box-sizing: border-box;
+   
+    margin: 20px;
+}
+form {
+    max-width: 600px;
+    margin: auto;
+}
+label {
+    display: block;
+    margin-top: 15px;
+}
+input, select, textarea, button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+button {
+    width: auto;
+    margin-right: 10px;
+}
+
+
+footer {
+    color: var(--cor3);
+    padding: 1em;
+    text-align: center;
+}
