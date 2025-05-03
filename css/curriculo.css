@@ -84,7 +84,7 @@ a.menuMEduarda {
 
 a.menuMEduarda:hover {
     background-color: var(--cor4);
-    color: var(--corBranca);
+    color: var(--corbranca);
 }
 
 th.curriculo {
